@@ -4,7 +4,7 @@ import React from 'react'
 import './Landing.css';
 
 // Import Components
-import { Navbar, Hero } from '../';
+import { Navbar, Hero, Skills } from '../';
 
 const Landing = () => {
   return (
@@ -12,6 +12,7 @@ const Landing = () => {
       <Navbar />
       <div className="landing-content-container">
         <Hero />
+        <Skills />
       </div>
     </div>
   )

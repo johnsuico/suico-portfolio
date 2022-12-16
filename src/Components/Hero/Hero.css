@@ -1,5 +1,9 @@
 .hero-content {
   color: white;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero-title {
@@ -18,7 +22,7 @@
 
 .hero-buttons {
   display: flex;
-  width: 35%;
+  width: 20%;
   justify-content: space-between;
   margin-top: 20px;
   align-items: center;
