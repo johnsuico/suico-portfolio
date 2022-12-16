@@ -1,10 +1,19 @@
-import './App.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+// Import components
+import { Landing, ErrorPage } from './Components/index';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Landing />,
+    errorElement: <ErrorPage />
+  },
+])
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <RouterProvider router={router} />
   );
 }
 

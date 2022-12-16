@@ -1,0 +1,22 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+/* Define Colors */
+:root {
+  --BackgroundColor: #1E1E1E;
+  --SecondaryBackground: #4F4F4F;
+  --AccentBlue: #3592FF;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: var(--BackgroundColor);
+}
