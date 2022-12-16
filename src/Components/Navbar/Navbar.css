@@ -33,6 +33,7 @@
   border-bottom: 1px solid transparent;
   transition: all 0.3s;
   height: 100%;
+  padding-bottom: 5px;
 }
 
 .nav-link:hover {
