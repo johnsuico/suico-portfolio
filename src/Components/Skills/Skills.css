@@ -29,10 +29,6 @@
   padding: 5px;
 }
 
-.skills-icon-container {
-  width: 60%;
-}
-
 @media (max-width: 835px) {
   .skills-icon-container {
     width: 100%;
