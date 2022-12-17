@@ -17,7 +17,7 @@ const Footer = () => {
 
       <div className="footer-icon-container">
         <a href={process.env.REACT_APP_LINKEDIN_LINK} target="_blank" rel="noreferrer"><AiFillLinkedin className="footer-icon"/></a>
-        <a href="https://github.com/johnsuico" target="_blank" rel="noreferrer"><BsGithub className="footer-icon"/></a>
+        <a href={process.env.REACT_APP_GITHUB_LINK} target="_blank" rel="noreferrer"><BsGithub className="footer-icon"/></a>
         <a href={process.env.REACT_APP_RESUME_LINK} target="_blank" rel="noreferrer"><HiDocument className="footer-icon"/></a>
       </div>
     </div>
