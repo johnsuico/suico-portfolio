@@ -17,7 +17,6 @@ const Navbar = () => {
         <div className="navbar-links">
           <HashLink smooth to="#skills" className="nav-link">Skills</HashLink>
           <HashLink smooth to="#projects" className="nav-link">Projects</HashLink>
-          {/* <Link to="/" className="nav-link">Resume</Link> */}
           <a href="https://drive.google.com/file/d/1U1zU-rThPkHPKUwKRBYzHVWscfHHFjY_/view?usp=sharing" className="nav-link" target="_blank" rel="noreferrer">Resume</a>
         </div>
 
@@ -28,7 +27,7 @@ const Navbar = () => {
         <div className="mm-links">
           <HashLink smooth to="#skills" className="nav-link">Skills</HashLink>
           <HashLink smooth to="#projects" className="nav-link">Projects</HashLink>
-          <Link to="/" className="nav-link">Resume</Link>
+          <a href="https://drive.google.com/file/d/1U1zU-rThPkHPKUwKRBYzHVWscfHHFjY_/view?usp=sharing" className="nav-link" target="_blank" rel="noreferrer">Resume</a>
         </div>
       </div>
     </div>
