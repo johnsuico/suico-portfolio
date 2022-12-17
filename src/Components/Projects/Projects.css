@@ -1,0 +1,83 @@
+.projects-container {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid var(--SecondaryBackground);
+}
+
+.project-individual-container {
+  display: flex;
+}
+
+.project-section-title {
+  color: var(--AccentBlue);
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-img {
+  width: 50%;
+}
+
+.project-info {
+  color: white;
+  width: 50%;
+  padding-left: 30px;
+}
+
+.project-role {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.project-desc {
+  margin-top: 20px;
+  line-height: 1.5rem;
+}
+
+.project-tech {
+  margin-top: 20px;
+}
+
+.project-icon-link-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-tech-icons {
+  display: flex;
+}
+
+.project-icon {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+
+.github-link-group {
+  display: flex;
+  align-items: center;
+}
+
+.github-link {
+  display: flex;
+  background-color: var(--AccentBlue);
+  height: 100%;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 10px;
+  transition: 0.3s all;
+}
+
+.github-link:hover {
+  background-color: var(--AccentBlueSecondary);
+}
+
+.github-link:first-child {
+  margin-right: 10px;
+}
+
+.github-link a {
+  text-decoration: none;
+  color: white;
+}
