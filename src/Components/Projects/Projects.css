@@ -39,6 +39,10 @@
   margin-top: 20px;
 }
 
+.project-tech-title {
+  margin-bottom: 10px;
+}
+
 .project-icon-link-container {
   display: flex;
   justify-content: space-between;

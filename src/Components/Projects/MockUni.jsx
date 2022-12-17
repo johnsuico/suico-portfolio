@@ -19,7 +19,7 @@ const MockUni = () => {
           <p className="project-desc">Students, classes, and books can also be assigned to each other to show what students are taking classes or what books they have checked out.</p>
 
           <div className="project-tech">
-            <h4 className="project-tect-title">Tech Stack:</h4>
+            <h4 className="project-tech-title">Tech Stack:</h4>
             <div className="project-icon-link-container">
               <div className="project-tech-icons">
                 <img src="https://img.icons8.com/color/48/null/mongodb.png" alt="" className="project-icon" title="MongoDB"/>
