@@ -18,9 +18,13 @@
 }
 
 .skill-icon {
-  height: 96px;
-  width: 96px;
+  height: 72px;
+  width: 72px;
   margin: 10px;
+}
+
+.skills-icon-container {
+  width: 75%;
 }
 
 .white-icon {
