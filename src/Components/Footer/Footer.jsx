@@ -16,7 +16,7 @@ const Footer = () => {
       </HashLink>
 
       <div className="footer-icon-container">
-        <a href="https://linkedinhttps://www.linkedin.com/in/johnsuico/" target="_blank" rel="noreferrer"><AiFillLinkedin className="footer-icon"/></a>
+        <a href="https://www.linkedin.com/in/johnsuico/" target="_blank" rel="noreferrer"><AiFillLinkedin className="footer-icon"/></a>
         <a href="https://github.com/johnsuico" target="_blank" rel="noreferrer"><BsGithub className="footer-icon"/></a>
         <a href="https://drive.google.com/file/d/1U1zU-rThPkHPKUwKRBYzHVWscfHHFjY_/view?usp=sharing" target="_blank" rel="noreferrer"><HiDocument className="footer-icon"/></a>
       </div>
