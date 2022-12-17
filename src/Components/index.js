@@ -6,3 +6,4 @@ export { default as Skills } from './Skills/Skills';
 export { default as Projects } from './Projects/Projects';
 export { default as SpartanSocial } from './Projects/SpartanSocial';
 export { default as MockUni } from './Projects/MockUni';
+export { default as PairingTool } from './Projects/PairingTool';

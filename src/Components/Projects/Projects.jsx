@@ -2,7 +2,7 @@ import React from 'react'
 
 import './Projects.css';
 
-import { SpartanSocial, MockUni } from '../';
+import { SpartanSocial, MockUni, PairingTool } from '../';
 
 const Projects = () => {
   return (
@@ -11,6 +11,7 @@ const Projects = () => {
 
       <SpartanSocial />
       <MockUni />
+      <PairingTool />
     </div>
   )
 }
