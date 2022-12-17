@@ -40,8 +40,8 @@ const Contact = () => {
   }
 
   return (
-    <div className="contact-container">
-      <h2 className="project-section-title" id="contact">Contact</h2>
+    <div className="contact-container" id="contact">
+      <h2 className="project-section-title">Contact</h2>
 
       <div className="contact-info-container">
         <div className="contact-links">
