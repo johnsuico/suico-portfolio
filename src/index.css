@@ -7,7 +7,8 @@
   --SecondaryBackground: #4F4F4F;
   --AccentBlue: #3592FF;
   --AccentBlueSecondary: #1079f1;
-
+  --EmailSentGreen: #55b628;
+  --EmailErrRed: #E30E00;
 }
 
 *,
