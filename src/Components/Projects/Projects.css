@@ -145,9 +145,6 @@
 }
 
 @media (max-width: 375px) {
-  .project-info {
-    border: 1px solid white;
-  }
 
   .project-icon {
     width: 36px;

@@ -30,5 +30,24 @@
 }
 
 .skills-icon-container {
-  flex-wrap: wrap;
+  width: 60%;
+}
+
+@media (max-width: 835px) {
+  .skills-icon-container {
+    width: 100%;
+  }
+
+  .skill-icon {
+    height: 15%;
+    width: 15%;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .skill-icon {
+    height: 25%;
+    width: 25%;
+  }
 }
