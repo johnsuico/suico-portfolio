@@ -24,6 +24,7 @@
   display: flex;
   margin-top: 20px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .hero-buttons a {
@@ -42,7 +43,7 @@
   background-color: var(--AccentBlueSecondary);
 }
 
-.github-btn {
+.hero-btn {
   display: flex;
   align-items: center;
   padding: 10px 10px;
@@ -51,10 +52,47 @@
   margin-left: 10px;
 }
 
-.github-btn:hover {
+.hero-btn:hover {
   border-bottom: 1px solid white;
 }
 
-.github-icon {
+.hero-icon {
   margin-right: 5px;
+}
+
+/* Media Queries */
+@media (max-width: 656px) {
+  .hero-btn:nth-child(4) {
+    display: none;
+  }
+}
+
+@media (max-width: 596px) {
+  .hero-caption {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 534px) {
+  .hero-title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 379px) {
+  .hero-btn:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (max-width: 377px) {
+  .hero-caption {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 374px) {
+  .hero-title {
+    font-size: 30px;
+  }
 }

@@ -17,7 +17,6 @@ const Navbar = () => {
         <div className="navbar-links">
           <HashLink smooth to="#skills" className="nav-link">Skills</HashLink>
           <HashLink smooth to="#projects" className="nav-link">Projects</HashLink>
-          <a href="https://drive.google.com/file/d/1U1zU-rThPkHPKUwKRBYzHVWscfHHFjY_/view?usp=sharing" className="nav-link" target="_blank" rel="noreferrer">Resume</a>
         </div>
 
         <GiHamburgerMenu className="mobile-menu-button" onClick={()=>setMobileMenu(!mobileMenu)}/>
@@ -27,6 +26,8 @@ const Navbar = () => {
         <div className="mm-links">
           <HashLink smooth to="#skills" className="nav-link">Skills</HashLink>
           <HashLink smooth to="#projects" className="nav-link">Projects</HashLink>
+          <HashLink smooth to="#contact" className="nav-link">Contact Me</HashLink>
+          <a href="https://www.linkedin.com/in/johnsuico/" target="_blank" rel="noreferrer" className="nav-link">Linkedin</a>
           <a href="https://drive.google.com/file/d/1U1zU-rThPkHPKUwKRBYzHVWscfHHFjY_/view?usp=sharing" className="nav-link" target="_blank" rel="noreferrer">Resume</a>
         </div>
       </div>
