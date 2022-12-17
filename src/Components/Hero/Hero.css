@@ -22,8 +22,6 @@
 
 .hero-buttons {
   display: flex;
-  width: 20%;
-  justify-content: space-between;
   margin-top: 20px;
   align-items: center;
 }
@@ -50,6 +48,7 @@
   padding: 10px 10px;
   border-bottom: 1px solid transparent;
   transition: 0.3s all;
+  margin-left: 10px;
 }
 
 .github-btn:hover {
