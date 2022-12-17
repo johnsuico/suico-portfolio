@@ -6,6 +6,7 @@
 
 .project-individual-container {
   display: flex;
+  margin-bottom: 30px;
 }
 
 .project-section-title {
