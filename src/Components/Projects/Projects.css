@@ -9,6 +9,10 @@
   margin-bottom: 30px;
 }
 
+.project-individual-container:nth-child(4) {
+  margin-bottom: 0;
+}
+
 .project-section-title {
   color: var(--AccentBlue);
   font-size: 36px;
