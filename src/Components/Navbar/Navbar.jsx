@@ -27,8 +27,8 @@ const Navbar = () => {
           <HashLink smooth to="#skills" className="nav-link">Skills</HashLink>
           <HashLink smooth to="#projects" className="nav-link">Projects</HashLink>
           <HashLink smooth to="#contact" className="nav-link">Contact Me</HashLink>
-          <a href="https://www.linkedin.com/in/johnsuico/" target="_blank" rel="noreferrer" className="nav-link">Linkedin</a>
-          <a href="https://drive.google.com/file/d/1U1zU-rThPkHPKUwKRBYzHVWscfHHFjY_/view?usp=sharing" className="nav-link" target="_blank" rel="noreferrer">Resume</a>
+          <a href={process.env.REACT_APP_LINKEDIN_LINK} target="_blank" rel="noreferrer" className="nav-link">Linkedin</a>
+          <a href={process.env.REACT_APP_RESUME_LINK} className="nav-link" target="_blank" rel="noreferrer">Resume</a>
         </div>
       </div>
     </div>

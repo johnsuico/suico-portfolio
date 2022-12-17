@@ -30,10 +30,7 @@ const PairingTool = () => {
                 <img src="https://img.icons8.com/color/48/null/google-forms-new-logo-1.png" alt="" className="project-icon"/>
               </div>
               <div className="github-link-group">
-                <div className="github-link">
-                  <BsGithub className="github-icon" />
-                  <a href="https://github.com/aibarrola/MentorshipPairingTool" target="_blank" rel="noreferrer">Github Repo</a>
-                </div>
+                <a href="https://github.com/aibarrola/MentorshipPairingTool" target="_blank" rel="noreferrer" className="github-link"><BsGithub className="github-icon" />Github</a>
               </div>
             </div>
           </div>

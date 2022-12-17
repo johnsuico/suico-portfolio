@@ -29,14 +29,11 @@ const SpartanSocial = () => {
                 <img src="https://img.icons8.com/color/96/null/heroku.png" alt="" className="project-icon" title="Heroku"/>
               </div>
               <div className="github-link-group">
-                <div className="github-link">
-                  <BsGithub className="github-icon" />
-                  <a href="https://github.com/johnsuico/SpartanSocial-FrontEnd" target="_blank" rel="noreferrer">Frontend</a>
-                </div>
-                <div className="github-link">
-                  <BsGithub className="github-icon" />
-                  <a href="https://github.com/johnsuico/SpartanSocial-API" target="_blank" rel="noreferrer">Backend</a>
-                </div>
+  
+                  <a href="https://github.com/johnsuico/SpartanSocial-FrontEnd" target="_blank" rel="noreferrer" className="github-link"><BsGithub className="github-icon" />Frontend</a>
+
+                  <a href="https://github.com/johnsuico/SpartanSocial-API" target="_blank" rel="noreferrer" className="github-link"><BsGithub className="github-icon" />Backend</a>
+
               </div>
             </div>
           </div>
