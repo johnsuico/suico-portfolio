@@ -3,3 +3,9 @@
   width: 70%;
   margin: auto;
 }
+
+@media (max-width: 515px) {
+  .landing-content-container {
+    width: 90%;
+  }
+}

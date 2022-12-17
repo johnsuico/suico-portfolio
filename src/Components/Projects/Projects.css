@@ -85,3 +85,72 @@
   text-decoration: none;
   color: white;
 }
+
+/* Media Queries */
+@media (max-width: 1650px) {
+
+  .project-individual-container {
+    margin-bottom: 50px;
+  }
+
+  .project-img {
+    width: 60%;
+  }
+
+  .project-info {
+    width: 40%;
+    padding-left: 0;
+  }
+
+  .project-icon-link-container {
+    flex-direction: column;
+  }
+
+  .github-link-group {
+    margin-top: 20px;
+  }
+
+  .github-link {
+    height: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .project-individual-container {
+    flex-direction: column;
+  }
+
+  .project-img,
+  .project-info {
+    width: 100%;
+  }
+
+  .project-icon-link-container {
+    flex-direction: row;
+  }
+
+  .github-link-group {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 830px) {
+  .project-icon-link-container {
+    flex-direction: column;
+  }
+
+  .github-link-group {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .project-info {
+    border: 1px solid white;
+  }
+
+  .project-icon {
+    width: 36px;
+    height: 36px;
+  }
+}
