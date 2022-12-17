@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 
 import './Contact.css';
 
-import {AiTwotoneMail, AiFillLinkedin} from 'react-icons/ai';
+import { AiTwotoneMail } from 'react-icons/ai';
 
 const Contact = () => {
 

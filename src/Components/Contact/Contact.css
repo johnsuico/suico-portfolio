@@ -101,6 +101,7 @@
   font-size: 20px;
   margin: auto;
   transition: 0.3s all;
+  margin-bottom: 30px;
 }
 
 .contact-form-btn:hover {

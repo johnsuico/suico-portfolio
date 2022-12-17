@@ -8,3 +8,4 @@ export { default as SpartanSocial } from './Projects/SpartanSocial';
 export { default as MockUni } from './Projects/MockUni';
 export { default as PairingTool } from './Projects/PairingTool';
 export { default as Contact } from './Contact/Contact';
+export { default as Footer } from './Footer/Footer';

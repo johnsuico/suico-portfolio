@@ -11,7 +11,7 @@ const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
 
   return (
-    <div className="navbar-container">
+    <div className="navbar-container" id="top">
       <div className="navbar-content-container">
         <Link to="/" className="header-title">SUI.CO</Link>
         <div className="navbar-links">
