@@ -25,8 +25,8 @@ const Navbar = () => {
 
       <div className={mobileMenu ? `mobileMenu mm-active` : `mobileMenu`}>
         <div className="mm-links">
-          <Link to="/" className="nav-link">Skills</Link>
-          <Link to="/" className="nav-link">Projects</Link>
+          <HashLink smooth to="#skills" className="nav-link">Skills</HashLink>
+          <HashLink smooth to="/" className="nav-link">Projects</HashLink>
           <Link to="/" className="nav-link">Resume</Link>
         </div>
       </div>
