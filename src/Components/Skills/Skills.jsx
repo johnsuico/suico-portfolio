@@ -3,7 +3,6 @@ import React from 'react'
 import './Skills.css';
 
 import Netlify from '../../Logos/netlify.svg';
-import Flask from '../../Logos/Flask.svg';
 import Postman from '../../Logos/postman.svg';
 
 
@@ -23,7 +22,6 @@ const Skills = () => {
           <img src="https://img.icons8.com/color/96/000000/express-js.png" alt="" className="skill-icon white-icon" title="Express.js"/>
           <img src="https://img.icons8.com/color/96/null/react-native.png" alt="" className="skill-icon" title="React.js"/>
           <img src="https://img.icons8.com/color/96/null/nodejs.png" alt="" className="skill-icon white-icon" title="Node.js"/>
-          <img src={Flask} alt="" className="skill-icon white-icon" title="Flask"/>
           <img src="https://img.icons8.com/color/96/null/heroku.png" alt="" className="skill-icon" title="Heroku"/>
 
           <img src={Netlify} alt="" className="skill-icon" title="Netlify"/>

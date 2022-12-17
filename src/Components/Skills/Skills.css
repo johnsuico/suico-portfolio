@@ -18,9 +18,9 @@
 }
 
 .skill-icon {
-  height: 72px;
-  width: 72px;
-  margin: 10px;
+  height: 12%;
+  width: 12%;
+  margin: 1.13%;
 }
 
 .skills-icon-container {
@@ -33,27 +33,16 @@
   padding: 5px;
 }
 
-@media (max-width: 835px) {
+/* Media Queries */
+
+@media (max-width: 768px) {
   .skills-icon-container {
     width: 100%;
   }
 
   .skill-icon {
-    height: 15%;
-    width: 15%;
-    justify-self: center;
-  }
-}
-
-@media (max-width: 576px) {
-  .skill-icon {
     height: 20%;
     width: 20%;
-  }
-}
-
-@media (max-width: 320px) {
-  .skill-icon {
-    width: 50px;
+    margin: 2.5%;
   }
 }
