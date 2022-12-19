@@ -23,4 +23,5 @@
 
 body {
   background-color: var(--BackgroundColor);
+  font-size: 100%;
 }

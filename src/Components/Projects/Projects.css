@@ -15,7 +15,8 @@
 
 .project-section-title {
   color: var(--AccentBlue);
-  font-size: 36px;
+  /* font-size: 36px; */
+  font-size: 3vh;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -30,22 +31,28 @@
   padding-left: 30px;
 }
 
+.project-title {
+  font-size: 2vh;
+}
+
 .project-role {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.5vh;
 }
 
 .project-desc {
   margin-top: 20px;
-  line-height: 1.5rem;
+  line-height: 3vh;
+  font-size: 1.5vh;
 }
 
 .project-tech {
   margin-top: 20px;
+  font-size: 1.5vh;
 }
 
 .project-tech-title {
-  margin-bottom: 10px;
+  margin-bottom: 1vh;
 }
 
 .project-icon-link-container {
@@ -58,9 +65,9 @@
 }
 
 .project-icon {
-  width: 48px;
-  height: 48px;
-  margin-right: 10px;
+  width: 4vh;
+  height: 4vh;
+  margin-right: 1.3vh;
 }
 
 .github-link-group {
@@ -73,7 +80,7 @@
   background-color: var(--AccentBlue);
   height: 100%;
   align-items: center;
-  padding: 0 10px;
+  padding: 0 1vh;
   border-radius: 10px;
   transition: 0.3s all;
   text-decoration: none;
