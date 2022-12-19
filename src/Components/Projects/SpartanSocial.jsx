@@ -12,11 +12,11 @@ const SpartanSocial = () => {
         <div className="project-info">
           <h3 className="project-title">SpartanSocial <span className="project-role">- Lead Full Stack Developer</span></h3>
 
-          <p className="project-desc">A social media website focused on creating a better student experience for new and Existing SJSU students.</p>
+          <p className="project-desc">A social media website focused on creating a better student experience for new and existing SJSU students.</p>
 
           <p className="project-desc">Users can create their own profile to post on the forums or post an upcoming event.</p>
 
-          <p className="project-desc">Users also have their own profile page they can edit and shows their past activity. </p>
+          <p className="project-desc">Users also have their own profile page they can edit and it also shows their past activity. </p>
 
           <div className="project-tech">
             <h4 className="project-tech-title">Tech Stack:</h4>

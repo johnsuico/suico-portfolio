@@ -13,9 +13,9 @@ const PairingTool = () => {
         <div className="project-info">
           <h3 className="project-title">Mentorship Pairing Tool <span className="project-role">- Frontend Developer</span></h3>
 
-          <p className="project-desc">A web application that matched people with each other depending on their answers from a google form.</p>
+          <p className="project-desc">A web application that matches people with each other depending on their answers from a Google form.</p>
 
-          <p className="project-desc">People who wanted to be matched with someone else who answer a short google form about themselves and the backend would calculate their similarity score.</p>
+          <p className="project-desc">People who wanted to be matched with someone else will answer a short google form about themselves and the backend would calculate their similarity score.</p>
 
           <p className="project-desc">The person using the app would be able to look at the form results, pairing results, and a pair's similarity score.</p>
 

@@ -14,9 +14,9 @@ const MockUni = () => {
 
           <p className="project-desc">A web management system for an imaginary school to keep track of their students, books, and classes.</p>
 
-          <p className="project-desc">School admins, or anyone authorized, would be able to add students, books, or classes to the system.</p>
+          <p className="project-desc">Authorized users will be able to add students, books, and classes to the system.</p>
 
-          <p className="project-desc">Students, classes, and books can also be assigned to each other to show what students are taking classes or what books they have checked out.</p>
+          <p className="project-desc">Students, classes, and books can also be assigned to each other to create class rosters and to see what books have been checked out.</p>
 
           <div className="project-tech">
             <h4 className="project-tech-title">Tech Stack:</h4>
