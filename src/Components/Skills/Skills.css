@@ -15,16 +15,13 @@
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+  width: 60%;
 }
 
 .skill-icon {
-  height: 12%;
-  width: 12%;
-  margin: 1.13%;
-}
-
-.skills-icon-container {
-  width: 75%;
+  height: 11%;
+  width: 11%;
+  margin: 2% 0.75%;
 }
 
 .white-icon {
