@@ -30,8 +30,8 @@
 }
 
 .contact-email-icon {
-  height: 24px;
-  width: 24px;
+  height: 2.5vh;
+  width: 2.5vh;
 }
 
 .contact-link-group {
@@ -42,7 +42,8 @@
 .contact-text {
   text-decoration: none;
   color: white;
-  margin-left: 5px;
+  margin-left: 1vh;
+  font-size: 1.5vh;
 }
 
 .contact-form {
@@ -53,20 +54,21 @@
 
 .contact-form-label {
   color: white;
-  margin-bottom: 5px;
-  font-size: 18px;
+  margin-bottom: 1vh;
+  font-size: 1.5vh;
 }
 
 .contact-form-input {
-  height: 40px;
-  margin-bottom: 15px;
+  height: 4vh;
+  margin-bottom: 1vh;
   background-color: var(--SecondaryBackground);
   border: none;
   border-radius: 10px;
-  padding-left: 10px;
+  padding-left: 1vh;
   color: white;
   border: 1px solid transparent;
   transition: 0.5s all;
+  font-size: 1.25vh
 }
 
 .contact-form-input:focus {
@@ -75,15 +77,15 @@
 }
 
 .contact-form-text-area {
-  height: 100px;
+  height: 10vh;
   border: 1px solid transparent;
   background-color: var(--SecondaryBackground);
   color: white;
   border-radius: 10px;
   transition: 0.5s all;
-  padding: 10px;
-  margin-bottom: 30px;
+  padding: 1vh;
   resize: none;
+  font-size: 1.25vh;
 }
 
 .contact-form-text-area:focus {
@@ -92,16 +94,15 @@
 }
 
 .contact-form-btn {
-  height: 40px;
+  height: 4vh;
   width: 30%;
   background-color: transparent;
   border: 3px solid var(--AccentBlue);
   border-radius: 10px;
   color: var(--AccentBlue);
-  font-size: 20px;
-  margin: auto;
+  font-size: 1.5vh;
+  margin: 2vh auto;
   transition: 0.3s all;
-  margin-bottom: 30px;
 }
 
 .contact-form-btn:hover {
