@@ -5,16 +5,16 @@
     {
       "src": "js-fav.svg",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/x-icon/svg"
     },
     {
       "src": "js-fav.svg",
-      "type": "image/png",
+      "type": "image/png/svg",
       "sizes": "192x192"
     },
     {
       "src": "js-fav.svg",
-      "type": "image/png",
+      "type": "image/png/svg",
       "sizes": "512x512"
     }
   ],
