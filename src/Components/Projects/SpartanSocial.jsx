@@ -4,19 +4,25 @@ import './Projects.css';
 
 import SpartanSocialScreen from '../../Images/SpartanSocial.png';
 import { BsGithub } from 'react-icons/bs';
+import { AiFillEye } from 'react-icons/ai';
 
 const SpartanSocial = () => {
   return (
     <div className="project-individual-container">
       <img src={SpartanSocialScreen} alt="SpartanSocial" className="project-img"/>
         <div className="project-info">
-          <h3 className="project-title">SpartanSocial <span className="project-role">- Lead Full Stack Developer</span></h3>
+          <div className="project-header">
+            <h3 className="project-title">SpartanSocial <span className="project-role">- Lead Full Stack Developer</span></h3>
+            <a href="https://spartansocial.netlify.app/" className="live-demo-link" target="_blank" rel="noreferrer"><AiFillEye className="demo-icon"/>Live Demo</a>
+          </div>
 
           <p className="project-desc">A social media website focused on creating a better student experience for new and existing SJSU students.</p>
 
           <p className="project-desc">Users can create their own profile to post on the forums or post an upcoming event.</p>
 
           <p className="project-desc">Users also have their own profile page they can edit and it also shows their past activity. </p>
+
+          <p className="project-desc"><em>Live demo is not fully optimized for mobile view.</em></p>
 
           <div className="project-tech">
             <h4 className="project-tech-title">Tech Stack:</h4>
