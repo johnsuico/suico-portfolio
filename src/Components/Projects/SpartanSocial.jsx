@@ -24,6 +24,8 @@ const SpartanSocial = () => {
 
           <p className="project-desc"><em>Live demo is not fully optimized for mobile view.</em></p>
 
+          <p className="project-desc"><em>If website doesn't work, backend server has reach its free use limit.</em></p>
+
           <div className="project-tech">
             <h4 className="project-tech-title">Tech Stack:</h4>
             <div className="project-icon-link-container">
